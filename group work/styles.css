@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b0082;
+    color: white;
+    padding: 15px 20px;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.button {
+    margin-left: 15px;
+    padding: 10px 15px;
+    background-color: #8a2be2;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #7a1b88;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero, .about, .featured-cars, .login, .marketplace, .news-updates, .user-dashboard, .contact, .owners {
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-gallery, .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car-item, .team-member {
+    flex: 1 1 calc(30% - 20px);
+    text-align: center;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.car-item img, .team-member img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #4b0082;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
